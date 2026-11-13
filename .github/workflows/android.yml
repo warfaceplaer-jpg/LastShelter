@@ -25,7 +25,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Unpack project
-        run: unzip -o LastShelter_v07.zip
+        run: unzip -o LastShelter_v08.zip
 
       - name: Build APK
         run: gradle assembleDebug
